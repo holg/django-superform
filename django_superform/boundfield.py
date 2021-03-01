@@ -1,4 +1,5 @@
-from django.forms.forms import BoundField
+# htr from django.forms.forms import BoundField
+from django.forms import BoundField
 
 
 class CompositeBoundField(BoundField):
